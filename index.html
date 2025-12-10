@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiali Ding</title>
+    <style>
+        * {                   /*为了保证在所有浏览器中都有相同的表现，可以先提前清除统一格式*/
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            padding: 100px 6%;
+            background: linear-gradient(to right top, #ff1493, #2980b9);
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .profile {
+            padding: 20px 30px;
+            height: 230px;
+            background: #ffffffd8;
+            text-align: center;
+            flex: 1 1 400px;
+            position: sticky;
+            top: 20px;
+            border-right: 2px solid #333333;
+        }
+
+        .profile h3 {
+            font-size: 20px;
+        }
+
+        .profile p {
+            color: #2980b9;
+            margin-bottom: 16px;
+            font-size: 15px;
+        }
+
+        .profile img {
+            width: 100px;
+            border-radius: 100px;
+        }
+
+        .btn {
+            padding: 7px 20px;
+            border-radius: 5px;
+            background: #2980b9;
+            color: #FFFFFF;
+            font-size: 17px;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background: #333333;
+        }
+    </style>
+    <style>
+        .CV {
+            padding: 20px 30px;
+            flex: 1 1 1000px;
+            background: #FFFFFF; 
+        }
+
+        .title {
+            font-size: 25px;
+            color: #2980b9;
+            margin-bottom: 15px;
+        }
+
+        .about p {
+            font-size: 17px;
+            line-height: 2;
+            padding-bottom: 10px;
+            color: #777777;
+        }
+
+        .about .box-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .about .box-container .box {
+            flex: 1 1 250px;
+        }
+
+        .about .box-container .box h3 {
+            font-size: 15px;
+            padding: 10px 0;
+            color: #333333;
+        }
+
+        .about .box-container .box h3 span {
+            color: #777777;
+        }
+    </style>
+    <style>
+        .project {
+            margin: 20px 0;
+        }
+
+        .project .box-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .project .box-container .box {
+            padding: 20px;
+            border-radius: 5px;
+            background: #eeeeee;
+            width: 100%;
+        }
+
+        .project .box-container .box span {
+            color: #2980b9;
+            font-size: 15px;
+        }
+
+        .project .box-container .box h3 {
+            color: #333333;
+            font-size: 17px;
+            padding: 5px 0;
+        }
+
+        .project .box-container .box ul {
+            color: #777777;
+            line-height: 2;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" >
+        <div class="profile">
+            <img src="现在.JPG" alt="profile">
+            <h3>Jiali Ding</h3>
+            <p>Economics</p>
+            <div class="buttons">
+                <a class="btn" href="#" target="_blank">Download CV</a>
+                <a class="btn" href="https://www.linkedin.com/in/jiali-ding-11050b292/" target="_blank">LinkedIn profile</a>
+            </div>  
+        </div>
+
+        <div class="CV">
+            <div class="about">
+                <h3 class="title">About Me</h3>
+                <p>My name is Jiali Ding, and I am an accomplished Economics graduate with a keen eye for detail.</p>
+                <p>I have completed two master's degree at UCL, and I am proficient in using data analysis software like Python and MATLAB.</p>
+                <div class="box-container">
+                    <div class="box">
+                        <h3><span>Age : </span>25</h3>
+                        <h3><span>Tel : </span>+86 15624206798</h3>
+                    </div>
+                    <div class="box">
+                        <h3><span>Language : </span>Chinese, English</h3>
+                        <h3><span>Email : </span>Jiali_Ding@yeah.net</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <h3 class="title">Education</h3>
+                <div class="box-container">
+                    <div class="box">
+                        <h3 style="color: #2980b9; font-size: 20px;">University College London</h3>
+                        <span>2022.09 - 2024.12
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            London
+                        </span>
+                        <h3>Master of Research in Economics (<i>MRes Economics</i>)</h3>
+                        <h3>Master of Science in Economics (<i>MSc Economics</i>)</h3>
+                        <p>Awards: <b>Distinction</b></p>
+                        <p>Core cources: <b>Econometrics (89)</b>, Money and Finance, Real Analysis and Probability with Economic Applications</p>
+                    </div>
+                    <div class="box">
+                        <h3 style="color: #2980b9; font-size: 20px;">Macau University of Science and Technology</h3>
+                        <span>2018.09 - 2022.07
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Macau
+                        </span>
+                        <h3>Bachelor of Science in Applied Economics (<i>BSc Applied Economics</i>)</h3>
+                        <p>Awards: <b>BOC scholarship (ranking 1%)</b>, Dean’s Honor List (ranking 5%), Bloomberg Dataset Training Certificate</p>
+                        <p>Core cources: Financial Markets and Institutions (A+), Financial Risk Management (A+), Mathematical Economics (A+)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <h3 class="title">Academic Project</h3>
+                <div class="box-container">
+                    <div class="box">
+                        <span>2023.06 - 2023.09
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            London
+                        </span>
+                        <h3>Research on low-carbon policy and income inequality </h3>
+                        <i>The dissertation was graded to receive the highest possible degree for a UK master’s degree.</i>
+                        <ul>
+                            <li>Formalised a relationship between carbon-related policy and social welfare through an advanced econometric model (PSM-
+DID), analyzed 250+ cities over ten years by conducting computer algorithms (Stata).</li>
+                            <li>Produced argumentation that this low-carbon policy has positive impacts on social welfare, especially for the relevant
+backward cities, and intuitively presented the results quantitatively.</li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <span>2024.06 - 2024.09
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            London
+                        </span>
+                        <h3>Determining the number of factors in the finite-sample factor model </h3>
+                        <ul>
+                            <li>Corrected the accuracy of a widely used statistical model (factor model) with a new parameter in a specific application
+scenario by continuously optimising the computation algorithms (MATLAB) in a limited time.</li>
+                            <li>Introduced a new criterion to select the appropriate model when using it in a finite sample. Ensured the effectiveness of
+the results by repeating 500+ times over various random numbers.</li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <span>2022.03 - 2022.06
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Macau
+                        </span>
+                        <h3>Research on low-carbon policy and carbon dioxide emissions </h3>
+                        <i>The dissertation received an A+ grade.</i>
+                        <ul>
+                            <li>Positively evaluated the effectiveness of this low-carbon policy by using an advanced econometric model</li>
+                            <li>Verified the correctness of the results with some robustness tests (parallel trend test and placebo test)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <h3 class="title">Experience</h3>
+                <div class="box-container">
+                    <div class="box">
+                        <span>2021.07 - 2021.08
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Beijing
+                        </span>
+                        <h3>Summer Analyst, Asset Securitization Department, TF Securities  </h3>
+                        <ul>
+                            <li>Conducted a benchmarking study on 100+ comparable companies across the new energy and technology industries, and
+efficiently delivered the report about the net profit of the companies’ financial statements to let people follow.</li>
+                            <li>Supported the preparation of C-suite presentations by leveraging the Bloomberg terminal and running comparative
+analysis.</li>
+                            <li>Contributed to daily research reports by monitoring macroeconomic policies and predicting market trends for REITs.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <h3 class="title">Leadership & Activitys</h3>
+                <div class="box-container">
+                    <div class="box">
+                        <span>2021.09 - 2022.06
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            Macau
+                        </span>
+                        <h3>Team Lead, Dragon Boat Team, Macau University of Science and Technology </h3>
+                        <ul>
+                            <li>Elected team lead to rise from 5th to 2nd out of all the university teams in Macau by leading and training 50+ team
+members, participated in the game as a main player.</li>
+                            <li>Ensured training quality at least three times per week by coordinating the training schedules across all school teams and
+team members, and actively sought sponsorship for new training equipment every year.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <h3 class="title">Skills & Interests</h3>
+                <div class="box-container">
+                    <div class="box">
+                        <ul>
+                            <li>Qualification: CFA Level I candidate, <b style="color: #333333;">GRE (170 for Quantitative reasoning)</b>, TOEFL (100+)</li>
+                            <li>Computer skills: Proficient in Stata, EViews, MATLAB, Python, and capable of video editing (CapCut).</li>
+                            <li>Language skills: Chinese (native), English (professional proficiency).</li>
+                            <li>Interests: Sharing Beta and ways of thinking with different people in the bouldering gym.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
