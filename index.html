@@ -57,6 +57,20 @@
         .btn:hover {
             background: #333333;
         }
+
+        .qrcode {
+            margin-top: 50px;
+            flex: 1 1 400px;
+            position: sticky;
+            top: 300px;
+            border-right: 2px solid #333333;
+        }
+        .qrcode img {
+            width: 400px;
+        }
+        .qrcode:hover {
+            box-shadow:  1px 3px 10px 10px #5E80F4;
+        }
     </style>
     <style>
         .CV {
@@ -134,15 +148,25 @@
 </head>
 <body>
     <div class="container" >
-        <div class="profile">
-            <img src="现在.JPG" alt="profile">
-            <h3>Jiali Ding</h3>
-            <p>Economics</p>
-            <div class="buttons">
-                <a class="btn" href="丁嘉力Ding,Jiali.pdf" target="_blank">Download CV</a>
-                <a class="btn" href="https://www.linkedin.com/in/jiali-ding-11050b292/" target="_blank">LinkedIn profile</a>
-            </div>  
+        <div class="left">
+            <div class="profile">
+                <img src="现在.JPG" alt="profile">
+                <h3>Jiali Ding</h3>
+                <p>Economics</p>
+                <div class="buttons">
+                    <a class="btn" href="丁嘉力Ding,Jiali.pdf" target="_blank">Download CV</a>
+                    <a class="btn" href="https://www.linkedin.com/in/jiali-ding-11050b292/" target="_blank">LinkedIn profile</a>
+                </div>  
+            </div>
+        
+            <div class="qrcode">
+                <a href="Ding.png" target="_blank">
+                    <img src="Ding.png" alt="QR Code">
+                </a>
+                
+            </div>
         </div>
+        
 
         <div class="CV">
             <div class="about">
